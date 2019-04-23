@@ -3,6 +3,22 @@ h1,h2,h3,h4,h5,h6 {
   margin: 0;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+input {
+  padding: 10px 10px;  
+}
+
+input,select,textarea {
+  outline: none;
+}
+
 img {
   border-radius: 50%;
 }

@@ -10,6 +10,8 @@
   top: 0;
   width: 100%;
   z-index: 20;
+  background-color: #2F2F2F;
+  opacity: 0.9;
 }
 
 .nav-link {
