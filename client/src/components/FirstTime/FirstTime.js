@@ -22,7 +22,9 @@ const FirstTime = () => {
             <img src = {c3Logo} alt = "C3 LOS ANGELES LOGO BLACK" />
           </div>
           {/* Right Side of Card */}
-          <div className = "right-side-logo separate"></div>
+          <div className = "right-side-logo separate">
+
+          </div>
         </div>
       </section>
 
