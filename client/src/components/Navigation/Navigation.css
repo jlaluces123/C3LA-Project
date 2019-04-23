@@ -5,9 +5,11 @@
   justify-content: space-evenly;
   align-items: center;
   margin: 0;
-  height: 60px;
-  margin: 0 10%;
-  background-color: #2F2F2F;  
+  height: 60px;    
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
 }
 
 .nav-link {
