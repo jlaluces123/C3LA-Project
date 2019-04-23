@@ -20,14 +20,7 @@ import { NavLink } from "react-router-dom";
 //   ]
 // };
 
-class Navigation extends React.Component {
-  state = {
-    open: true,
-  };
-
-  handleMenu = event => {
-    this.setState({ open: !this.state.open });
-  }
+class Navigation extends React.Component {  
   
   render() { 
     return (

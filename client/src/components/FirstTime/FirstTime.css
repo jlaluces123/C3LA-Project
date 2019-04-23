@@ -18,10 +18,52 @@
   text-align: center;
 }
 
+.background-title {  
+  font-size: 6rem;
+}
+
 .background-color-overlay {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: #533BDA;
+  background-color: #2F2F2F;
   opacity: 0.7; 
+}
+
+
+.first-time-card {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: cener;
+  align-items: center;
+}
+
+.card-wrapper {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row; 
+
+  -webkit-box-shadow: 14px 18px 5px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 14px 18px 5px -4px rgba(0,0,0,0.75);
+  box-shadow: 14px 18px 5px -4px rgba(0,0,0,0.75);
+}
+
+.left-side-logo {
+  background-color: #2F2F2F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side-logo {
+  background-color: white;
+  border: 0.1px solid black;
+}
+
+.separate {
+  width: 50%;
+  height: inherit;
 }
