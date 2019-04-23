@@ -6,10 +6,20 @@
   align-items: center;
   margin: 0;
   height: 60px;
-    
+  margin: 0 10%;
+  background-color: #2F2F2F;  
 }
 
 .nav-link {
   text-decoration: none;
   color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;  
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid white;
+  transition: 0.2s;
 }
