@@ -11,6 +11,15 @@ form {
   justify-content: space-evenly;
 }
 
+label {
+  text-transform: uppercase;
+}
+
+label, input, textarea {  
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
 input {
   padding: 10px 10px;  
 }
