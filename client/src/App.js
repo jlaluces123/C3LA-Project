@@ -4,6 +4,7 @@ import './App.css';
 import { Route } from "react-router-dom";
 
 import Navigation from "./components/Navigation/Navigation.js";
+import Footer from "./components/Footer/Footer.js";
 /* Components */
 import About from "./components/About/About.js";
 import Locations from "./components/Locations/Locations.js"
@@ -29,6 +30,10 @@ function App() {
       <Route exact path = "/next-steps" component = {NextSteps} />
       <Route exact path = "/ministries" component = {Ministries} />
       <Route exact path = "/give" component = {Give} />
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
