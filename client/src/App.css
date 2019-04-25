@@ -35,3 +35,9 @@ img {
 ul {
   text-transform: uppercase;
 }
+
+footer {
+  height: 200px;
+  background: black;
+  color: white;
+}

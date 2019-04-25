@@ -1,0 +1,29 @@
+.footer-component-wrapper {
+  height: inherit;
+}
+
+.footer-cta-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: inherit;
+}
+
+.footer-home-btn {
+  color: grey;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.13rem;
+}
+
+.footer-home-btn:hover {
+  color: white;
+  transition: 0.2s;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+}
