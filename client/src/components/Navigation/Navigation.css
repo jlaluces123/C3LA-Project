@@ -1,5 +1,4 @@
-.main-nav-wrapper {
-  padding: 0;
+.main-nav-wrapper {  
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
