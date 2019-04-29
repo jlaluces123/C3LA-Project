@@ -121,3 +121,53 @@
 .cta-capitalize {
   text-transform: capitalize;
 }
+
+
+@media screen and (max-width: 400px) { 
+
+  h1 {
+    font-size: 1.7rem;    
+    margin: 10%;
+    text-align: center;
+  }
+
+  .background-title {
+    font-size: 4rem;
+  }
+  
+  .first-time-card {
+    padding: 0;
+  }
+
+  .card-wrapper {
+    height: auto;
+    box-shadow: none;
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+
+  .separate {
+    width: 100%;
+  }
+
+  .cta-name {
+    margin: 5% 0%;
+    flex-direction: column;
+  }
+
+  .cta-options {
+    margin: 2% 0;
+  }
+
+  .heard-about-us {
+    margin: 2% 0;
+  }
+
+  .small-msg {
+    padding-bottom: 15px;
+  }
+
+  .submit-btn {
+    width: auto;
+  }
+}
