@@ -36,7 +36,7 @@ const Footer = () => {
           {facebookIcon}
         </div>
 
-        <p style = {{ fontSize: "1.1rem" }}>C3 LOS ANGELES 121 AVE 59 LOS ANGELES, CA 90042  |  HELLO@C3LOSANGELES.COM</p>
+        <p className = "address-text">C3 LOS ANGELES 121 AVE 59 LOS ANGELES, CA 90042  |  HELLO@C3LOSANGELES.COM</p>
       </div>
     </div>
   );
