@@ -29,7 +29,7 @@ class FirstTime extends React.Component {
         </section>
   
         <section className = "first-time-card">
-          <h1 style = {{ fontSize: "2.5rem", marginBottom: 50 }}>Help Us Get To Know You</h1>        
+          <h1 className = "card-header-text">Help Us Get To Know You</h1>        
           <div className = "card-wrapper">
             {/* Left Side Of Card */}
             <div className = "left-side-logo separate">
